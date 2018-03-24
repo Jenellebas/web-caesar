@@ -40,7 +40,6 @@ form = """
 
 @app.route("/")
 def index():
-
     return form.format()
 
 @app.route("/", methods=['POST'])
