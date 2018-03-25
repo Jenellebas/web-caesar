@@ -30,7 +30,7 @@ form = """
                 <input type="text" name="rot" value='0' />
             </label>
             <label>
-                <textarea name="text" value="{0}"></textarea>
+                <textarea name="text">{0}</textarea>
             </label>
             <input type="submit" value="Submit Query" />
         </form>
