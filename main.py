@@ -40,7 +40,8 @@ form = """
 
 @app.route("/")
 def index():
-    return form.format()
+    text = ""
+    return form.format(text)
 
 @app.route("/", methods=['POST'])
 def encrypt():
